@@ -1,0 +1,118 @@
+# ==========================================
+# Maven
+# ==========================================
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Maven wrapper generated files
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties
+
+
+# ==========================================
+# Java
+# ==========================================
+
+*.class
+*.log
+
+
+# ==========================================
+# IntelliJ IDEA
+# ==========================================
+
+.idea/
+*.iws
+*.iml
+*.ipr
+
+
+# ==========================================
+# Eclipse / STS
+# ==========================================
+
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated
+.springBeans
+.sts4-cache
+
+
+# ==========================================
+# NetBeans
+# ==========================================
+
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+
+# ==========================================
+# VS Code
+# ==========================================
+
+.vscode/
+
+
+# ==========================================
+# Environment / Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+application-local.yml
+application-local.yaml
+application-secret.yml
+application-secret.yaml
+
+
+# ==========================================
+# Logs
+# ==========================================
+
+logs/
+*.log
+
+
+# ==========================================
+# OS generated files
+# ==========================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+
+# ==========================================
+# Temporary files
+# ==========================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+
+# ==========================================
+# Coverage / Test reports
+# ==========================================
+
+coverage/
+jacoco/
+*.exec
+
+
+# ==========================================
+# Spring Boot
+# ==========================================
+
+spring-boot-devtools/
